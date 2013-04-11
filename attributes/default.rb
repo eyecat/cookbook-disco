@@ -9,8 +9,8 @@ default["disco"]["revision"] = "0.4.2"
 default["disco"]["checkout"] = "/usr/src/disco"
 
 # User and Group to install/run Disco as
-default["disco"]["user"] = "disco"
-default["disco"]["group"] = "disco"
+default["disco"]["user"] = "vagrant"
+default["disco"]["group"] = "vagrant"
 
 # Set this to a node search query which identifies
 # slaves. The disco::master recipe uses this to
